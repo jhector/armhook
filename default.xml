@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="jhector" fetch="https://github.com/jhector/"/>
+<remote name="akheron" fetch="https://github.com/akheron/"/>
+
+<default revision="refs/heads/master" remote="jhector" sync-j="4"/>
+
+<project path="core" name="armhook-core" remote="jhector" />
+<project path="deps/libjansson" name="jansson" remote="akheron" revision="refs/heads/2.7"/>
+</manifest>
