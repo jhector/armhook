@@ -33,3 +33,5 @@ After a successful build, you can then push the two files onto the device using 
 
 ## Usage
 The hooks are configured using a JSON config, for further details see the readme of the [armhook-core](https://github.com/jhector/armhook-core) repository.
+
+An example is given in the [armhook-handler-example](https://github.com/jhector/armhook-handler-example) repository.
